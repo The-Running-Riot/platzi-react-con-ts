@@ -1,0 +1,16 @@
+Explicito=
+
+Implitcito=
+
+Props= definir un objeto listando cuales son los tipos de cada una de sus prioridades.
+
+Los estados pueden recibir tipos de datos primitivos como un string, number, boolean.
+
+Generador= el hook de react useState, tiene un generador (generator) que permite saber qué va a inferir su motor de interpretación. 
+    Ejemplo: function useState<S>(initialState: S | (() => S)): [S, Dispatch<SetStateAction<S>>]; 
+            La <S> quiere referirse a la inicial del state (estado). En pocas palabras: es una variable que recibe y asigna.
+
+useRef= permite crear una referencia mutable que se puede utilizar para acceder directamente a los elementos del DOM o a los componentes de React
+    Por defecto el generico useRef viene por undefined y se debe iniciar con un valor o tipo
+
+useEffect= Es un Hook que te permite ejecutar código cada vez que cambian sus dependencias la primera vez que se realiza el componente.
